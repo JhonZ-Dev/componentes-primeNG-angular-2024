@@ -1,0 +1,9 @@
+<!-- para cambiar el idioma del calendario de primeng
+es necesario primero mofificar el HTML con la propiedad
+[locale]="es" -->
+<td class="columna-sinacentoss">
+    <p-calendar class="card flex justify-content-center" [showIcon]="true"
+        [(ngModel)]="lote.lote_fecha_caducidad " name="fechaElaboracion_{{i}}" [disabled]="data.mostrar"
+        dateFormat="dd/mm/yy" [touchUI]="true" appendTo="body" [required]="true">
+    </p-calendar>
+</td>
